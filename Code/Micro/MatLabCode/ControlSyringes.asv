@@ -1,0 +1,30 @@
+
+while 0==0
+
+   
+flag = 0;
+state = 0; %no tetra [down up]
+
+while flag==0
+    pause(1)
+    disp('sono qui ')
+    flag = importdata('flag.txt');
+end
+action = importdata('action.txt');
+disp('farò delle cose')
+% action = 1 dai tetraciclina
+flag = 0
+writematrix(flag, 'flag.txt')
+
+if action==1 & state==0
+    %DOWN
+    state=1 [up ]
+end
+
+if action==0 & state==1
+    %UP
+    state=0
+end
+
+end
+
