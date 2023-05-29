@@ -1,0 +1,7 @@
+cellpose
+opencv-python
+tensorflow
+scipy
+matplotlib
+pandas
+numpy
