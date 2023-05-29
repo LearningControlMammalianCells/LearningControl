@@ -7,7 +7,7 @@ import sys
 import os
 
 if __name__ == '__main__':
-    folder = "C:/Users/a.dehoffer/PycharmProjects/Experiments"
+    folder = "../Experiments"
     exp = 'nd08'
     folder = f'{folder}/{exp}'
 
